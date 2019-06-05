@@ -6,7 +6,7 @@ const app = express();
 app.get('/', (req, res) => {
     const ip = req.ip;
     const myParam = req.query.asd;
-    res.send(`${myParam} ${ip}`);
+    res.send(`HELLO ${myParam} ${ip}`);
   });
 
 app.listen(3000);
